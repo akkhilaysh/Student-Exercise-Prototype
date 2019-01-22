@@ -1,0 +1,61 @@
+#instBox {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid #162C53;
+    padding: 25px;
+    margin: 25px;
+  }
+
+  #userInput {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid #FBBF13;
+    padding: 25px;
+    margin: 25px;
+  }
+
+  #ExDiv{
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid rgb(151, 51, 38);
+    padding: 25px;
+    margin: 25px;
+  }
+
+  #body1{
+    margin-left: 700px;
+  }
+
+  button {
+    background-color: #162C53; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #FBBF13;
+    color: white;
+  }
+
+  #exercises{
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+  }
+
+  button:disabled,
+  button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
